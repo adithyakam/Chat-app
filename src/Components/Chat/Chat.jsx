@@ -8,7 +8,7 @@ import UsersDisplay from "../UsersDisplay/UsersDisplay";
 
 import "./Chat.css";
 
-const link = "http://localhost:3000/";
+const link = "https://stormy-bayou-42925.herokuapp.com/ ";
 let socket = io(link);
 
 class Chat extends Component {
