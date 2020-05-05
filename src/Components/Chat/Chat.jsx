@@ -8,7 +8,7 @@ import UsersDisplay from "../UsersDisplay/UsersDisplay";
 
 import "./Chat.css";
 
-const link = "https://stormy-bayou-42925.herokuapp.com/ ";
+const link = "https://stormy-bayou-42925.herokuapp.com/";
 let socket = io(link);
 
 class Chat extends Component {
@@ -61,7 +61,7 @@ class Chat extends Component {
     e.preventDefault();
     let msgg = this.state.messagevalue;
     this.setState({ messagevalue: "" });
-    console.log(this.state.messagevalue, "messagmevalue");
+    console.log(this.state.messagevalue, "messagevalue");
 
     socket.emit("sendMessage", msgg, () => {});
   };
