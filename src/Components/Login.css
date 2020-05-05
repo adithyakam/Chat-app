@@ -1,0 +1,26 @@
+.container {
+  color: white;
+  width: 40%;
+}
+
+.infobox {
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.container input {
+  background-color: white !important;
+  color: black;
+  border-radius: 10px !important;
+  font-weight: 400;
+}
+.container label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.container h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 2px solid white;
+}

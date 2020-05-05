@@ -1,0 +1,130 @@
+.messageBox {
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #2979ff;
+}
+
+.backgroundLight {
+}
+
+@media only screen and (max-width: 600px) {
+  .messageBox {
+    padding: 4px 10px;
+    max-width: 100%;
+  }
+
+  .messageText {
+    width: 100%;
+    letter-spacing: 0;
+    background: #f3f3f3;
+    font-weight: 500;
+    float: left;
+    font-size: 0.8em;
+    word-wrap: break-word;
+  }
+
+  .messageContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 3%;
+    margin-top: 3px;
+  }
+
+  .sentText {
+    display: flex;
+    font-size: 0.8em;
+    align-items: center;
+    font-family: Helvetica;
+    color: #828282;
+    letter-spacing: 0.3px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .messageBox {
+    padding: 5px 15px;
+    max-width: 100%;
+  }
+
+  .messageText {
+    width: 100%;
+    letter-spacing: 0;
+    font-weight: 500;
+    float: left;
+    font-size: 1.5em;
+    word-wrap: break-word;
+  }
+
+  .messageContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 3%;
+    margin-top: 3px;
+  }
+
+  .sentText {
+    display: flex;
+    font-size: 1.1em;
+    align-items: center;
+    font-family: Helvetica;
+    color: #828282;
+    letter-spacing: 0.3px;
+  }
+}

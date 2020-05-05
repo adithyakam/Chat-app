@@ -1,0 +1,115 @@
+.userdisplay {
+  text-align: center;
+  height: 100vh;
+  width: 30%;
+  margin: 0;
+  background-color: #035c5c;
+}
+
+.chatContainer {
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  background-color: White;
+  box-sizing: border-box;
+}
+.chat-main {
+  border: 0;
+  margin: 0;
+  flex-direction: column;
+  height: 75vh;
+}
+.sendButton {
+  margin-top: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .userdisplay {
+    text-align: center;
+    height: 100vh;
+    width: 30%;
+    margin: 0;
+    background-color: #035c5c;
+  }
+
+  .chatContainer {
+    height: 100vh;
+    margin: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: White;
+    box-sizing: border-box;
+  }
+  .chat-main {
+    border: 0;
+    margin: 0;
+    height: 80vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .userdisplay {
+    text-align: center;
+    height: 100vh;
+
+    width: 30%;
+    margin: 0;
+    background-color: #035c5c;
+  }
+
+  .chatContainer {
+    height: 100vh;
+    margin: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: White;
+    box-sizing: border-box;
+  }
+  .chat-main {
+    border: 0;
+    margin: 0;
+    height: 80vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .userdisplay {
+    text-align: center;
+    height: 100vh;
+    width: 30%;
+    margin: 0;
+    background-color: #035c5c;
+  }
+
+  .chatContainer {
+    height: 100vh;
+    margin: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: White;
+    box-sizing: border-box;
+  }
+  .chat-main {
+    border: 0;
+    margin: 0;
+    height: 75vh;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+.display {
+  border: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}

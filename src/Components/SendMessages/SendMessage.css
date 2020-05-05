@@ -1,0 +1,21 @@
+.sendBtn {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+.row .col {
+  margin-top: 0 !important;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .sendBtn {
+    margin-bottom: 0;
+    font-size: 4rem;
+  }
+  .row .col {
+    margin-top: 0 !important;
+    margin-bottom: 0;
+    font-size: 5em;
+  }
+}

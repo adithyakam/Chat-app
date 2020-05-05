@@ -1,0 +1,45 @@
+.userTIltle {
+  font-size: 1.2rem;
+}
+
+.ch {
+  overflow: scroll;
+  min-height: 55px !important;
+  border-radius: 5px !important;
+  position: relative;
+}
+
+.disp-Users {
+  display: flex !important;
+  flex-direction: column;
+  height: 100vh !important;
+}
+
+.collection {
+  margin: 0 !important;
+  border: 0;
+}
+
+.collection h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .userTIltle {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .userTIltle {
+    font-size: 2rem;
+  }
+
+  .collection h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .userTIltle {
+    font-size: 2rem;
+  }
+}
