@@ -61,7 +61,7 @@ class Chat extends Component {
     e.preventDefault();
     let msgg = this.state.messagevalue;
     this.setState({ messagevalue: "" });
-    console.log(this.state.messagevalue, "messagevalue");
+    console.log(this.state.messagevalue, "messagmevalue");
 
     socket.emit("sendMessage", msgg, () => {});
   };
