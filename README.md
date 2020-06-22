@@ -1,3 +1,4 @@
+-----------------------------------------------------------------------
 This is an simplechat app frontend code,uses
 *React
 
